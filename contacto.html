@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Tu Producto en Casa</title>
+</head>
+
+<body>
+
+  <div class="row main-conteiner middle-xs center-xs">
+  <div class="col-md-8 col-sm-10 col-xs-11">
+  <div class="box">
+
+    <div class="card body">
+
+  <header>
+
+    <nav class="nav-menu">
+      <a href="index.html" class="text-menu">Inicio</a>
+      <a href="equipos_computo.html" class="text-menu">Equipos Computo</a>
+      <a href="accesorios.html" class="text-menu">Accesorios</a>
+      <a href="ubicacion.html" class="text-menu">Ubicación</a>
+      <a href="contacto.html" class="text-menu">Contacto</a>
+    </nav>
+
+  </header>
+
+
+      <article class="card body">
+        <section class="register">
+            <form method="post" action="./envio.php"> 
+                  <h4>Formulario De Contacto</h4>
+                  <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                  <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+                  <input class="controls" type="email" name="correo" id="correo" placeholder="Correo" required>
+                  <input class="controls" type="number" name="telefono" id="telefono" placeholder="Telefono" required>
+                  <textarea class="controls" name="mensaje" id="mensaje" placeholder="Mensaje" required></textarea>
+                  <p class="acuerdo">Al enviar el mensaje, estoy de acuerdo con el tratamiento y privacidad de los datos</p>
+                  <input class="botons" type="submit" name="enviar" value="enviar Mensaje">
+            </form>
+        </section>
+     </article>
+
+      <footer class="piepagina">Derechos Reservados</footer>
+
+     </div>
+
+     </div>
+     </div>
+    </div>
+
+</body>
+</html>
